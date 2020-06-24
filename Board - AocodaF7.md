@@ -50,8 +50,5 @@
 | SDA           | SDA                  | I2C1_SDA  | PB9          |                                        |
 | SCL           | SCL                  | I2C1_SCL  | PB8          |                                        |
 
-### Picture
-
-![front](images/APEXF7_small_front.png)
-
-![back](images/APEXF7_small_back.png)
+### Designer
+* mark&AOCODA-RC
