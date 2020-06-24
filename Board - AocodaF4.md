@@ -1,34 +1,4 @@
 <<<<<<< HEAD
-# ApexF7
-
-### Features
-
-- STM32F722
-
-- 16 MB of Flash
-
-- USB-C  
-
-- Dual Gyro via SPI (MPU6000 + ICM20602)
-
-- Barometer BMP280 via I2C
-
-- VTX Power Switch
-
-- 10V BEC for VTX and Camera
-
-- CamControl
-
-- OSD
-
-- Bluetooth Connectivity via soldered module (active, when board isnt armed)
-
-- WS2812 LED Output
-
-- SmartAudio/Tramp
-
-- Up to 6s Input
-=======
 # AocodaF4
 
 ### Features
@@ -81,15 +51,11 @@
 | SDA           | SDA                  | I2C1_SDA  | PB9          |                                        |
 | SCL           | SCL                  | I2C1_SCL  | PB8          |                                        |
 
-### Picture
 
-![front](images/APEXF7_small_front.png)
-
-![back](images/APEXF7_small_back.png)
 =======
 | UART1         | TX1                  | TX1       | PA9          |                                        |
 | ESC Telemetry | TEL                  | RX5       | PD2          |                                        |
-| uART5         | TX5                  | TX5       | PC12         |                                        |
+| UART5         | TX5                  | TX5       | PC12         |                                        |
 | Cam Control   | CC                   | PB8       | PB8          |                                        |
 | Video Output  | VTX                  | -         | -            |                                        |
 | Cam Input     | CAM                  | -         | -            |                                        |
