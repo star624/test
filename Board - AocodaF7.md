@@ -8,7 +8,7 @@
 
 - USB VCP and boot button for DFU  
 
-- Dual Gyro via SPI (MPU6000 + ICM20602)
+- Gyro via SPI (MPU6000)
 
 - I2C device extend(Baro/compass/Oled etc)
 
@@ -52,7 +52,29 @@
 | SCL           | SCL                  | I2C1_SCL  | PB8          |                                        |
 
 
-### Connections
+### Gyro & ACC ,MPU6000
+| Value | Identifier   | function |  pin   | Notes                                                                                 |
+| ----- | ------------ | ---------| -------| ------------------------------------------------------------------------------------- |                                                                                      
+| 1     | SPI2         |    SCK   |  PB13  | 
+| 2     | SPI2         |    MISO  |  PB14  | 
+| 3     | SPI2         |    MOSI  |  PB15  | 
+| 4     | SPI2         |    CS    |  PB12  | 
+
+### OSD AT7456
+| Value | Identifier   | function |  pin   | Notes                                                                                 |
+| ----- | ------------ | ---------| -------| ------------------------------------------------------------------------------------- |                                                                                      
+| 1     | SPI1         |    SCK   |  PA5  | 
+| 2     | SPI1         |    MISO  |  PA6  | 
+| 3     | SPI1         |    MOSI  |  PA7  | 
+| 4     | SPI1         |    CS    |  PA4  |
+
+### 16Mbyte flash
+| Value | Identifier   | function |  pin   | Notes                                                                                 |
+| ----- | ------------ | ---------| -------| ------------------------------------------------------------------------------------- |                                                                                      
+| 1     | SPI3         |    SCK   |  PB3  | 
+| 2     | SPI3         |    MISO  |  PB4  | 
+| 3     | SPI3         |    MOSI  |  PB5  | 
+| 4     | SPI3         |    CS    |  PC0  |
 
 
 ### Designer
