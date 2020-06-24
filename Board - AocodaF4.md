@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AocodaF4
 
 ### Features
