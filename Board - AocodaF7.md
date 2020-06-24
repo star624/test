@@ -6,27 +6,27 @@
 
 - 16 MB of Flash
 
-- USB-C  
+- USB VCP and boot button for DFU  
 
 - Dual Gyro via SPI (MPU6000 + ICM20602)
 
-- Barometer BMP280 via I2C
+- I2C device extend(Baro/compass/Oled etc)
 
 - VTX Power Switch
 
-- 10V BEC for VTX and Camera
+- 9V BEC for VTX and Camera
 
-- CamControl
+- Curr RSSI sensors input
 
-- OSD
+- OSD integration AT7456
 
-- Bluetooth Connectivity via soldered module (active, when board isnt armed)
+- integration Bluetooth module (active, when board isnt armed)
 
 - WS2812 LED Output
 
-- SmartAudio/Tramp
+- IRC Tramp
 
-- Up to 6s Input
+- 3S-6S Input
 
 ### Connections
 
