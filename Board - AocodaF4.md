@@ -77,7 +77,3 @@
 ### Designer
 * mark&AOCODA-RC
 
-
-
-
->>>>>>> 6d009654505f1682a36de35d466c0a93ce2960ab
